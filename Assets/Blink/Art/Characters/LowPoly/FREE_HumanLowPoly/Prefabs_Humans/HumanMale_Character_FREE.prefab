@@ -1043,7 +1043,7 @@ Animator:
   m_GameObject: {fileID: 1782702501690864755}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: de13a7420582ded45a8d7d3f96889aca, type: 3}
-  m_Controller: {fileID: 9100000, guid: 4c7fe8e1a3919c549a79a706afefd1ce, type: 2}
+  m_Controller: {fileID: 9100000, guid: 346a6a19b1eddef459250e349e670746, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1069,13 +1069,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TeamTron.CharacterControllers.PlayerMovement
   controller: {fileID: 2268185720120797350}
   player: {fileID: 1782702501690864755}
-  moveSpeed: 2000
-  laneChangeSpeed: 12.66
+  moveSpeed: 3000
+  laneChangeSpeed: 38.1
   lanePositions:
   - -2.5
   - 0
   - 2.5
-  gravity: -88.4
+  gravity: -19.7
   multiplier: 0.015
   move: {fileID: 34038673211712587, guid: 2c030195b6fa948449f79ecffcf68a07, type: 3}
   combat: {fileID: 5866942555890742290, guid: 2c030195b6fa948449f79ecffcf68a07, type: 3}

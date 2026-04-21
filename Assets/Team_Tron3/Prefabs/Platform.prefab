@@ -400,10 +400,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SectionTrigger
   platformSections:
   - {fileID: 8976903480374167235}
+  - {fileID: 0}
   triggerSection: {fileID: 8245768875949615925}
+  Portal: {fileID: 0}
   zVal: 0
   sectionCount: 2
   firstinstantiate: 0
+  counter: 0
 --- !u!1 &8553954860625195929
 GameObject:
   m_ObjectHideFlags: 0
