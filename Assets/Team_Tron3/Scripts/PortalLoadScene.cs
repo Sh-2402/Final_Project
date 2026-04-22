@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NewMonoBehaviourScript1 : MonoBehaviour
+public class PortalLoadScene : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
@@ -9,9 +9,9 @@ public class NewMonoBehaviourScript1 : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
-           SceneManager.LoadScene(2);
+           SceneManager.LoadScene("Island");
         }
     }
 }
