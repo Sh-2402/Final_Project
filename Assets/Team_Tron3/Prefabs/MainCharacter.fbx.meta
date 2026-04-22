@@ -1,0 +1,281 @@
+fileFormatVersion: 2
+guid: 928fd424e84d5c945b59b5dc2ab1a93a
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 0
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Cube.006
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Cube.007
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: MainCharacter(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube
+      parentName: MainCharacter(Clone)
+      position: {x: -0.007948763, y: -0.2152574, z: 0.0032627236}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 53.361286, y: 34.47617, z: 96.18202}
+    - name: Cube.001
+      parentName: MainCharacter(Clone)
+      position: {x: -0.013573236, y: -1.6467366, z: -0.01671179}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 59.04385, y: 33.799698, z: 28.774687}
+    - name: Cube.002
+      parentName: MainCharacter(Clone)
+      position: {x: 0.0009266492, y: 1.2492031, z: 0.0032627236}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 35.92895, y: 35.208015, z: 32.060673}
+    - name: Cube.003
+      parentName: MainCharacter(Clone)
+      position: {x: -0.68232894, y: -1.393123, z: 0.0032627236}
+      rotation: {x: 0.0066159163, y: 0.70707583, z: -0.70707583, w: -0.0066159163}
+      scale: {x: -6.5233965, y: -22.660294, z: -22.445007}
+    - name: Cube.004
+      parentName: MainCharacter(Clone)
+      position: {x: 0.64583594, y: -0.2157719, z: 0.0032627236}
+      rotation: {x: -0.026026344, y: 0.7066277, z: -0.70662767, w: 0.026026346}
+      scale: {x: -11.3157015, y: -19.359667, z: -96.29422}
+    - name: Cube.005
+      parentName: MainCharacter(Clone)
+      position: {x: 0.27841458, y: -3.1540325, z: 0.00510046}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 25.171968, y: 31.541645, z: 123.45238}
+    - name: Cube.006
+      parentName: MainCharacter(Clone)
+      position: {x: -0.3168021, y: -4.0697174, z: 0.0032627236}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 27.469194, y: 36.24784, z: 54.046524}
+    - name: Cube.007
+      parentName: MainCharacter(Clone)
+      position: {x: 0.0009266492, y: 0.8242096, z: 0.0032627236}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 16.652582, y: 22.882545, z: 32.060673}
+    - name: Cube.008
+      parentName: MainCharacter(Clone)
+      position: {x: 0.7197958, y: -1.393123, z: 0.0032627236}
+      rotation: {x: -0.006615917, y: 0.70707583, z: 0.70707583, w: -0.0066159153}
+      scale: {x: 6.5233965, y: 22.660294, z: 22.445007}
+    - name: Cube.009
+      parentName: MainCharacter(Clone)
+      position: {x: -0.608369, y: -0.2157719, z: 0.0032627236}
+      rotation: {x: 0.026026344, y: 0.7066277, z: 0.70662767, w: 0.026026346}
+      scale: {x: 11.3157015, y: 19.359667, z: 96.29422}
+    - name: Cube.010
+      parentName: MainCharacter(Clone)
+      position: {x: 0.3000354, y: -4.451456, z: 0.07887316}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 27.929193, y: 43.01906, z: 15.605143}
+    - name: Cube.011
+      parentName: MainCharacter(Clone)
+      position: {x: -0.3140919, y: -4.451456, z: 0.07887316}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 25.973984, y: 43.01906, z: 15.605143}
+    - name: Cube.012
+      parentName: MainCharacter(Clone)
+      position: {x: 0.3000354, y: -4.0697174, z: 0.0032627236}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 29.277569, y: 36.24784, z: 54.046524}
+    - name: Cube.013
+      parentName: MainCharacter(Clone)
+      position: {x: -0.32604647, y: -3.1540325, z: 0.00510046}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 23.394041, y: 31.541645, z: 123.45238}
+    - name: Cube.014
+      parentName: MainCharacter(Clone)
+      position: {x: -0.007948763, y: -1.2560364, z: -0.0151696205}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 61.542366, y: 37.559113, z: 12.587039}
+    - name: Cube.015
+      parentName: MainCharacter(Clone)
+      position: {x: -0.011680037, y: -1.2570721, z: 0.33518198}
+      rotation: {x: -0.70710677, y: 0, z: -0, w: 0.7071068}
+      scale: {x: -16.401978, y: -3.7280385, z: -12.694493}
+    - name: Cube.016
+      parentName: MainCharacter(Clone)
+      position: {x: -0.01718963, y: 1.5719507, z: 0.004120346}
+      rotation: {x: 0.000000030908623, y: 0.7071068, z: 0.7071067, w: 0.000000030908616}
+      scale: {x: -69.713135, y: -71.78352, z: -1.552455}
+    - name: Cube.017
+      parentName: MainCharacter(Clone)
+      position: {x: 0.0049247444, y: 1.7425046, z: -0.004884623}
+      rotation: {x: 0.000000030908623, y: 0.7071068, z: 0.7071067, w: 0.000000030908616}
+      scale: {x: -32.38996, y: -44.322575, z: -18.487556}
+    - name: Cube.018
+      parentName: MainCharacter(Clone)
+      position: {x: -0.007948763, y: -0.19169848, z: 0.0032627236}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 68.25171, y: 40.39408, z: 103.29543}
+    - name: Cube.019
+      parentName: MainCharacter(Clone)
+      position: {x: 0.0059841773, y: 0.5531532, z: -0.13609175}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 38.759125, y: 32.91774, z: 100}
+    - name: Cube.020
+      parentName: MainCharacter(Clone)
+      position: {x: -0.0010063965, y: 1.2501962, z: 0.29573715}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 4.1585226, y: 12.536076, z: 9.085591}
+    - name: Cylinder
+      parentName: MainCharacter(Clone)
+      position: {x: -0.00079450686, y: 1.0645078, z: 0.29382285}
+      rotation: {x: 7.584995e-11, y: 0.000000021855564, z: 0.999994, w: 0.0034704893}
+      scale: {x: 16.967327, y: 3.3438833, z: 7.002931}
+    - name: Cylinder.001
+      parentName: MainCharacter(Clone)
+      position: {x: 0.17216207, y: 1.4092878, z: 0.30874625}
+      rotation: {x: 0.0000000022058475, y: -0.0000000217441, z: 0.9948938, w: -0.10092779}
+      scale: {x: -11.098024, y: -5.781646, z: -5.1469035}
+    - name: Cylinder.002
+      parentName: MainCharacter(Clone)
+      position: {x: 0.19536462, y: 1.4609615, z: 0.3059267}
+      rotation: {x: 0.000000021854435, y: -2.353226e-10, z: -0.010767105, w: 0.99994206}
+      scale: {x: 16.967329, y: 3.3438833, z: 7.002931}
+    - name: Cylinder.003
+      parentName: MainCharacter(Clone)
+      position: {x: 0.17216207, y: 1.4092878, z: 0.31621104}
+      rotation: {x: 0.0000000022058475, y: -0.0000000217441, z: 0.9948938, w: -0.10092779}
+      scale: {x: -4.9111366, y: -4.102943, z: -5.1469035}
+    - name: Cylinder.004
+      parentName: MainCharacter(Clone)
+      position: {x: 0.17216207, y: 1.4092878, z: 0.32577357}
+      rotation: {x: 0.0000000022058477, y: -0.0000000217441, z: 0.9948938, w: -0.10092779}
+      scale: {x: -2.3062866, y: -2.0449104, z: -5.1469035}
+    - name: Cylinder.005
+      parentName: MainCharacter(Clone)
+      position: {x: -0.17800435, y: 1.4092878, z: 0.32577357}
+      rotation: {x: -0.0000000020717479, y: -0.00000002175728, z: 0.9954971, w: 0.09479212}
+      scale: {x: -2.3062866, y: -2.0449104, z: -5.1469035}
+    - name: Cylinder.006
+      parentName: MainCharacter(Clone)
+      position: {x: -0.17800435, y: 1.4092878, z: 0.31621104}
+      rotation: {x: -0.000000002071748, y: -0.000000021757286, z: 0.9954971, w: 0.09479212}
+      scale: {x: -4.911137, y: -4.102943, z: -5.1469035}
+    - name: Cylinder.007
+      parentName: MainCharacter(Clone)
+      position: {x: -0.17800435, y: 1.4092878, z: 0.30874625}
+      rotation: {x: -0.0000000020717474, y: -0.000000021757282, z: 0.9954971, w: 0.09479212}
+      scale: {x: -11.098024, y: -5.781646, z: -5.1469035}
+    - name: Cylinder.008
+      parentName: MainCharacter(Clone)
+      position: {x: -0.21189404, y: 1.4609615, z: 0.3059267}
+      rotation: {x: 0.99994206, y: 0.010766929, z: -8.128805e-10, w: -0.000000075493524}
+      scale: {x: -16.967329, y: -3.3438833, z: -7.002931}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

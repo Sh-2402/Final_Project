@@ -15,11 +15,12 @@ public class SectionTrigger : MonoBehaviour
     public float zVal = 43;
     [SerializeField] int sectionCount;
     public bool firstinstantiate = false;
-    public int counter;
+    public int counter = 0;
 
 
     public void OnTriggerEnter(Collider other)
     {
+        counter++;
         int sectionCount = Random.Range(0, 2);
         if ( firstinstantiate == false)
         {
@@ -39,7 +40,7 @@ public class SectionTrigger : MonoBehaviour
         {
             if(counter > 2)
             {
-                Instantiate(platformSections[2], new Vector3(-313.1f, 0f, zVal), Quaternion.identity);
+                Instantiate(platformSections[1], new Vector3(-313.1f, 0f, zVal), Quaternion.identity);
 
             }
             else
@@ -50,7 +51,7 @@ public class SectionTrigger : MonoBehaviour
             }
                
         }
-        counter++;
+        
     }
 
   
