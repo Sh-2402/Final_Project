@@ -1,5 +1,6 @@
-using System.Collections.Generic;
+using NUnit.Framework;
 using UnityEngine;
+using System.Collections.Generic;
 
 public class DamageDealer : MonoBehaviour
 {
@@ -16,27 +17,29 @@ public class DamageDealer : MonoBehaviour
 
     void Update()
     {
-        if (canDealDamage)
+        if(canDealDamage)
         {
             RaycastHit hit;
 
             int layerMask = 1 << 9;
             if (Physics.Raycast(transform.position, -transform.up, out hit, weaponLength, layerMask))
             {
-                if (hit.transform.TryGetComponent(out Enemy enemy) && !hasDealtDamage.Contains(hit.transform.gameObject))
+                if(!hasDealtDamage.Contains(hit.transform.gameObject))
                 {
-                    //enemy.TakeDamage(weaponDamage);
-                    //enemy.HitVFX(hit.point);
+                    print("damage");
                     hasDealtDamage.Add(hit.transform.gameObject);
                 }
             }
-        }
+
+        }        
     }
+
     public void StartDealDamage()
     {
         canDealDamage = true;
         hasDealtDamage.Clear();
     }
+
     public void EndDealDamage()
     {
         canDealDamage = false;

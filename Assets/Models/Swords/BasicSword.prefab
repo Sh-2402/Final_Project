@@ -90,7 +90,7 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &6394481725350303767
+--- !u!1 &3999622367782787974
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -98,8 +98,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3437410790990763417}
-  - component: {fileID: 163633637847611088}
+  - component: {fileID: 1395245817147301250}
+  - component: {fileID: 3142275484671957003}
   m_Layer: 0
   m_Name: DamageDealer
   m_TagString: Untagged
@@ -107,35 +107,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3437410790990763417
+--- !u!4 &1395245817147301250
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6394481725350303767}
+  m_GameObject: {fileID: 3999622367782787974}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.03656006, y: 9.75, z: 0.0015599728}
+  m_LocalRotation: {x: 0.0000000083819005, y: 0.000000010244545, z: -2.9831415e-10, w: 1}
+  m_LocalPosition: {x: -0.02, y: 9.73, z: 0.46}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9127928973223150904}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &163633637847611088
+--- !u!114 &3142275484671957003
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6394481725350303767}
+  m_GameObject: {fileID: 3999622367782787974}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b7220a92d56a4343aaeb4831a0e3e1b, type: 3}
+  m_Script: {fileID: 11500000, guid: 03e0d8c5aea08a444b5b65d80e8c42be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  weaponLength: 13
-  weaponDamage: 5
+  weaponLength: 12.56
+  weaponDamage: 2
 --- !u!1 &6865137207735090398
 GameObject:
   m_ObjectHideFlags: 0
@@ -340,8 +340,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8495824808712740738}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.61146, y: 10.22053, z: 1.93557}
+  m_LocalRotation: {x: -0.0000000083819005, y: -0.000000010244545, z: 2.9831415e-10, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -349,9 +349,9 @@ Transform:
   - {fileID: 1032500702228028870}
   - {fileID: 6958522225902662393}
   - {fileID: 1776972621872986235}
-  - {fileID: 3437410790990763417}
+  - {fileID: 1395245817147301250}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &8715331498855417965
 GameObject:
   m_ObjectHideFlags: 0
