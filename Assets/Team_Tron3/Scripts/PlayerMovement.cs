@@ -53,7 +53,7 @@ namespace FinalProject.CharacterControllers
         }
 
         
-        private void OnEnable()
+        public void OnEnable()
         {
             if (move?.action != null)
             {
@@ -142,10 +142,11 @@ namespace FinalProject.CharacterControllers
             _targetX = lanePositions[_currentLane];
         }
 
-        private void Action(InputAction.CallbackContext obj)
+        public void Action(InputAction.CallbackContext obj)
         {
             Debug.Log("Action complete");
             player.gameObject.GetComponent<Animator>().Play("MeleeAttack_OneHanded");
+            
         }
     }
 }
