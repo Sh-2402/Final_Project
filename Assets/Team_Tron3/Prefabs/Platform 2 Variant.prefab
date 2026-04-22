@@ -581,7 +581,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8167762803096900728}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 6870380076251159226, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7446985301337135997, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
       insertIndex: -1
@@ -724,3 +725,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c3d4b1d31286f34a9b0d396cc6958af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript1
+  player: {fileID: 0}

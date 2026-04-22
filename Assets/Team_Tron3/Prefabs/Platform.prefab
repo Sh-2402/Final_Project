@@ -4299,6 +4299,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Forest_Enemy_Character
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a6f33e7c0e3dd4943909e7a145de6af6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a6f33e7c0e3dd4943909e7a145de6af6, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4314,7 +4322,7 @@ PrefabInstance:
       addedObject: {fileID: 8969208841096654611}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a6f33e7c0e3dd4943909e7a145de6af6, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1593883742076918057}
+      addedObject: {fileID: 5841789029872982739}
   m_SourcePrefab: {fileID: 100100000, guid: a6f33e7c0e3dd4943909e7a145de6af6, type: 3}
 --- !u!4 &6058378251681611776 stripped
 Transform:
@@ -4367,8 +4375,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.9879847, y: 6.779804, z: 2.9676707}
-  m_Center: {x: 0.07999995, y: -2.666063, z: 1.93}
+  m_Size: {x: 2.9879847, y: 6.8757887, z: 2.9676707}
+  m_Center: {x: 0.079999946, y: -2.6180718, z: 1.93}
 --- !u!114 &8969208841096654611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4384,21 +4392,28 @@ MonoBehaviour:
   player: {fileID: 0}
   enemy: {fileID: 6870380076251159226}
   combat: {fileID: 5866942555890742290, guid: 2c030195b6fa948449f79ecffcf68a07, type: 3}
---- !u!114 &1593883742076918057
-MonoBehaviour:
+--- !u!64 &5841789029872982739
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6870380076251159226}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4dc864147f845445abfb6e86299b1d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Collisions_Detection
-  player: {fileID: 0}
-  Anim: {fileID: 0}
-  fadeOut: {fileID: 0}
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7564450303103337652, guid: a6f33e7c0e3dd4943909e7a145de6af6, type: 3}
 --- !u!1001 &6316094167645937230
 PrefabInstance:
   m_ObjectHideFlags: 0

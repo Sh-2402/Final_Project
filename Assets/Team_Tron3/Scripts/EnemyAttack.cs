@@ -10,37 +10,27 @@ public class EnemyAttack : MonoBehaviour
 
 
     [SerializeField] GameObject player;
-    [SerializeField] Animator Anim;
-    [SerializeField] GameObject fadeOut;
     [SerializeField] GameObject enemy;
     public InputActionReference combat;
 
-    private void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
         if (player.CompareTag("Player"))
         {
             if (combat?.action != null)
             {
-                if (combat.action.triggered)
+                if (combat.action.WasPressedThisFrame())
                 {
-                    Destroy(enemy);
+                    combat.action.performed += OnCombatPerformed;
                 }
-                else
-                {
-                    StartCoroutine(CollisionEnd());
-                }
+
             }
+            
         }
+
     }
-    IEnumerator CollisionEnd()
+    public void OnCombatPerformed(InputAction.CallbackContext context)
     {
-        player.GetComponent<PlayerMovement>().enabled = false;
-        Anim.GetComponent<Animator>().Play("Death");
-        yield return new WaitForSeconds(2f);
-        fadeOut.SetActive(true);
-        yield return new WaitForSeconds(3);
-        SceneManager.LoadScene(0);
+        Destroy(enemy);
     }
-
-
 }

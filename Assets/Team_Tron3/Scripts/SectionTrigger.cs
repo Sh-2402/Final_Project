@@ -45,7 +45,7 @@ public class SectionTrigger : MonoBehaviour
             }
             else
             {
-                Instantiate(platformSections[sectionCount], new Vector3(-313.1f, 0f, zVal), Quaternion.identity);
+                Instantiate(platformSections[1], new Vector3(-313.1f, 0f, zVal), Quaternion.identity);
 
                 Destroy(triggerSection);
             }
