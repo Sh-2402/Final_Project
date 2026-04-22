@@ -532,93 +532,6 @@ Camera:
   m_CorrespondingSourceObject: {fileID: 1921443196246515690, guid: 2b887ffad81bc0641921b131bf760b8a, type: 3}
   m_PrefabInstance: {fileID: 1572521992477787899}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &736807914
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3955808756769843235, guid: 0af7958a0cdae2043b88741c48ab1657, type: 3}
-      propertyPath: m_Name
-      value: Portal
-      objectReference: {fileID: 0}
-    - target: {fileID: 3955808756769843235, guid: 0af7958a0cdae2043b88741c48ab1657, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7239361314865794458, guid: 0af7958a0cdae2043b88741c48ab1657, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7239361314865794458, guid: 0af7958a0cdae2043b88741c48ab1657, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 3.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7239361314865794458, guid: 0af7958a0cdae2043b88741c48ab1657, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 3.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7239361314865794458, guid: 0af7958a0cdae2043b88741c48ab1657, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7239361314865794458, guid: 0af7958a0cdae2043b88741c48ab1657, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 7239361314865794458, guid: 0af7958a0cdae2043b88741c48ab1657, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 12.03
-      objectReference: {fileID: 0}
-    - target: {fileID: 7239361314865794458, guid: 0af7958a0cdae2043b88741c48ab1657, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7239361314865794458, guid: 0af7958a0cdae2043b88741c48ab1657, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7239361314865794458, guid: 0af7958a0cdae2043b88741c48ab1657, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7239361314865794458, guid: 0af7958a0cdae2043b88741c48ab1657, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7239361314865794458, guid: 0af7958a0cdae2043b88741c48ab1657, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7239361314865794458, guid: 0af7958a0cdae2043b88741c48ab1657, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7239361314865794458, guid: 0af7958a0cdae2043b88741c48ab1657, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7239361314865794458, guid: 0af7958a0cdae2043b88741c48ab1657, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8863490829336004629, guid: 0af7958a0cdae2043b88741c48ab1657, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3955808756769843235, guid: 0af7958a0cdae2043b88741c48ab1657, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1552486124}
-    - targetCorrespondingSourceObject: {fileID: 3955808756769843235, guid: 0af7958a0cdae2043b88741c48ab1657, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1552486123}
-  m_SourcePrefab: {fileID: 100100000, guid: 0af7958a0cdae2043b88741c48ab1657, type: 3}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -681,6 +594,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 253666223589399368, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 253666223589399368, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 253666223589399368, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
     - target: {fileID: 324309278443743197, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
       propertyPath: Anim
       value: 
@@ -717,6 +642,30 @@ PrefabInstance:
       propertyPath: fadeOut
       value: 
       objectReference: {fileID: 171541151}
+    - target: {fileID: 517326971665395064, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 517326971665395064, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 517326971665395064, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 562595824333507284, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 562595824333507284, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 562595824333507284, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
     - target: {fileID: 677213410990322036, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
       propertyPath: Anim
       value: 
@@ -729,6 +678,30 @@ PrefabInstance:
       propertyPath: fadeOut
       value: 
       objectReference: {fileID: 171541151}
+    - target: {fileID: 685615143015227103, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 685615143015227103, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 685615143015227103, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 808145849851235749, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 808145849851235749, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 808145849851235749, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
     - target: {fileID: 910256384050346114, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
       propertyPath: Anim
       value: 
@@ -738,6 +711,42 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 348186294}
     - target: {fileID: 910256384050346114, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 939044790646896503, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 939044790646896503, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 939044790646896503, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 1140788834556448469, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 1140788834556448469, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 1140788834556448469, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 1268662051513589002, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 1268662051513589002, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 1268662051513589002, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
       propertyPath: fadeOut
       value: 
       objectReference: {fileID: 171541151}
@@ -777,6 +786,54 @@ PrefabInstance:
       propertyPath: fadeOut
       value: 
       objectReference: {fileID: 171541151}
+    - target: {fileID: 2396188462401115646, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 2396188462401115646, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 2396188462401115646, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 2529460364294063481, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 2529460364294063481, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 2529460364294063481, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 2531379212863916511, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 2531379212863916511, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 2531379212863916511, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 2595696633563889991, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 2595696633563889991, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 2595696633563889991, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
     - target: {fileID: 2605539746929463760, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
       propertyPath: Anim
       value: 
@@ -786,6 +843,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 348186294}
     - target: {fileID: 2605539746929463760, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 2632099542351878172, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 2632099542351878172, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 2632099542351878172, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
       propertyPath: fadeOut
       value: 
       objectReference: {fileID: 171541151}
@@ -801,6 +870,18 @@ PrefabInstance:
       propertyPath: fadeOut
       value: 
       objectReference: {fileID: 171541151}
+    - target: {fileID: 2704843479317218034, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 2704843479317218034, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 2704843479317218034, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
     - target: {fileID: 2728107832741974865, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
       propertyPath: Anim
       value: 
@@ -813,6 +894,54 @@ PrefabInstance:
       propertyPath: fadeOut
       value: 
       objectReference: {fileID: 171541151}
+    - target: {fileID: 2910530801198706335, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 2910530801198706335, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 2910530801198706335, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 3050176963860025661, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 3050176963860025661, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 3050176963860025661, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 3085022552933228678, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 3085022552933228678, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 3085022552933228678, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 3137062500014485916, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 3137062500014485916, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 3137062500014485916, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
     - target: {fileID: 3182773415532450784, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
       propertyPath: Anim
       value: 
@@ -822,6 +951,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 348186294}
     - target: {fileID: 3182773415532450784, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 3363154722645817372, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 3363154722645817372, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 3363154722645817372, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
       propertyPath: fadeOut
       value: 
       objectReference: {fileID: 171541151}
@@ -861,6 +1002,54 @@ PrefabInstance:
       propertyPath: fadeOut
       value: 
       objectReference: {fileID: 171541151}
+    - target: {fileID: 3735792676686309704, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 3735792676686309704, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 3735792676686309704, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 3863703751201804657, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 3863703751201804657, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 3863703751201804657, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 4031009512844866440, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 4031009512844866440, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 4031009512844866440, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 4102615011952474657, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 4102615011952474657, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 4102615011952474657, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
     - target: {fileID: 4167895130033024062, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
       propertyPath: Anim
       value: 
@@ -882,6 +1071,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 348186294}
     - target: {fileID: 4206826545997978757, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 4301138161091516499, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 4301138161091516499, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 4301138161091516499, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
       propertyPath: fadeOut
       value: 
       objectReference: {fileID: 171541151}
@@ -909,6 +1110,18 @@ PrefabInstance:
       propertyPath: fadeOut
       value: 
       objectReference: {fileID: 171541151}
+    - target: {fileID: 4737702828138683928, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 4737702828138683928, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 4737702828138683928, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
     - target: {fileID: 4745194014481209632, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
       propertyPath: Anim
       value: 
@@ -918,6 +1131,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 348186294}
     - target: {fileID: 4745194014481209632, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 4829659982247992996, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 4829659982247992996, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 4829659982247992996, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
       propertyPath: fadeOut
       value: 
       objectReference: {fileID: 171541151}
@@ -997,6 +1222,18 @@ PrefabInstance:
       propertyPath: fadeOut
       value: 
       objectReference: {fileID: 171541151}
+    - target: {fileID: 5028355565223782804, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 5028355565223782804, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 5028355565223782804, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
     - target: {fileID: 5081863112028615902, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
       propertyPath: Anim
       value: 
@@ -1057,6 +1294,18 @@ PrefabInstance:
       propertyPath: fadeOut
       value: 
       objectReference: {fileID: 171541151}
+    - target: {fileID: 5627358807219972290, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 5627358807219972290, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 5627358807219972290, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
     - target: {fileID: 5658422479925519042, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
       propertyPath: Anim
       value: 
@@ -1066,6 +1315,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 348186294}
     - target: {fileID: 5658422479925519042, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 5743881423965219982, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 5743881423965219982, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 5743881423965219982, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
       propertyPath: fadeOut
       value: 
       objectReference: {fileID: 171541151}
@@ -1141,6 +1402,18 @@ PrefabInstance:
       propertyPath: fadeOut
       value: 
       objectReference: {fileID: 171541151}
+    - target: {fileID: 6417328044599276663, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 6417328044599276663, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 6417328044599276663, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
     - target: {fileID: 6422563074578816523, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
       propertyPath: Anim
       value: 
@@ -1150,6 +1423,30 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 348186294}
     - target: {fileID: 6422563074578816523, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 6557688908796142658, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 6557688908796142658, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 6557688908796142658, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 6633929734734551700, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 6633929734734551700, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 6633929734734551700, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
       propertyPath: fadeOut
       value: 
       objectReference: {fileID: 171541151}
@@ -1177,6 +1474,42 @@ PrefabInstance:
       propertyPath: fadeOut
       value: 
       objectReference: {fileID: 171541151}
+    - target: {fileID: 6962756840859190173, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 6962756840859190173, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 6962756840859190173, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 6991250034460879623, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 6991250034460879623, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 6991250034460879623, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 6994623388362291439, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 6994623388362291439, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 6994623388362291439, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
     - target: {fileID: 7058048721061638499, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
       propertyPath: Anim
       value: 
@@ -1201,6 +1534,30 @@ PrefabInstance:
       propertyPath: fadeOut
       value: 
       objectReference: {fileID: 171541151}
+    - target: {fileID: 7138915259365924322, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 7138915259365924322, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 7138915259365924322, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 7275699097831311004, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 7275699097831311004, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 7275699097831311004, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
     - target: {fileID: 7280651763484496862, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
       propertyPath: Anim
       value: 
@@ -1210,6 +1567,42 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 348186294}
     - target: {fileID: 7280651763484496862, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 7634740912067482477, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 7634740912067482477, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 7634740912067482477, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 7787674527278792917, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 7787674527278792917, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 7787674527278792917, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 8007983554992990161, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 8007983554992990161, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 8007983554992990161, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
       propertyPath: fadeOut
       value: 
       objectReference: {fileID: 171541151}
@@ -1225,6 +1618,18 @@ PrefabInstance:
       propertyPath: fadeOut
       value: 
       objectReference: {fileID: 171541151}
+    - target: {fileID: 8383569331480914001, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 8383569331480914001, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 8383569331480914001, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
     - target: {fileID: 8486020318829858102, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
       propertyPath: Anim
       value: 
@@ -1234,6 +1639,66 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 348186294}
     - target: {fileID: 8486020318829858102, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 8510470394655155826, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 8510470394655155826, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 8510470394655155826, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 8597643270494197484, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 8597643270494197484, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 8597643270494197484, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 8602126592284858265, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 8602126592284858265, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 8602126592284858265, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 8605245600754578302, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 8605245600754578302, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 8605245600754578302, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 8735089518904223922, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 8735089518904223922, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 8735089518904223922, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
       propertyPath: fadeOut
       value: 
       objectReference: {fileID: 171541151}
@@ -1257,6 +1722,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform
       objectReference: {fileID: 0}
+    - target: {fileID: 9069181352557478886, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 9069181352557478886, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 9069181352557478886, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
     - target: {fileID: 9103877681800364516, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
       propertyPath: Anim
       value: 
@@ -1269,14 +1746,26 @@ PrefabInstance:
       propertyPath: fadeOut
       value: 
       objectReference: {fileID: 171541151}
+    - target: {fileID: 9150879321183945037, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 9150879321183945037, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 9150879321183945037, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
     - target: {fileID: 9203793045527149614, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
       propertyPath: Portal
       value: 
-      objectReference: {fileID: 8739972605684017164}
+      objectReference: {fileID: 89916722332039341}
     - target: {fileID: 9203793045527149614, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
       propertyPath: 'platformSections.Array.data[1]'
       value: 
-      objectReference: {fileID: 8739972605684017163}
+      objectReference: {fileID: 89916722332039340}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1287,45 +1776,625 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8976903480374167235, guid: b5264de0c66dca146864bdbe6e28cd30, type: 3}
   m_PrefabInstance: {fileID: 1078758599}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1552486122 stripped
+--- !u!1001 &89916722332039339
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 815717236573479643, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 815717236573479643, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 815717236573479643, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 902158954176417447, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 902158954176417447, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 902158954176417447, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 1033892686884771434, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 1033892686884771434, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 1033892686884771434, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 1129041623321657446, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 1129041623321657446, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 1129041623321657446, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 1157258189232795873, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 1157258189232795873, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 1157258189232795873, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 1288699884876827947, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: 'platformSections.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1078758600}
+    - target: {fileID: 1306351063655996950, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 1354543977681598406, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: m_Name
+      value: Platform 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1659321851006308076, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 1659321851006308076, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 1659321851006308076, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 1989595090639223859, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 1989595090639223859, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 1989595090639223859, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 2274446504352689403, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 2274446504352689403, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 2274446504352689403, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 2368561288771736519, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 2368561288771736519, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 2368561288771736519, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 2522691278758696726, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 2522691278758696726, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 2522691278758696726, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 2617507945748079456, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 2617507945748079456, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 2617507945748079456, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 2858977174272747689, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 2858977174272747689, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 2858977174272747689, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 2944922211998287323, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 2944922211998287323, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 2944922211998287323, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 3025354831732656790, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 3025354831732656790, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 3025354831732656790, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 3038855852892492993, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 3038855852892492993, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 3038855852892492993, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 3077369905701557611, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 238
+      objectReference: {fileID: 0}
+    - target: {fileID: 3077369905701557611, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3077369905701557611, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 3077369905701557611, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3077369905701557611, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3077369905701557611, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3077369905701557611, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3077369905701557611, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3077369905701557611, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3077369905701557611, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3116186378046630267, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 3116186378046630267, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 3116186378046630267, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 3265441051263132695, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 3265441051263132695, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 3265441051263132695, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 3302290803393399453, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 3423369472839706661, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 3423369472839706661, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 3423369472839706661, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 3533219337302213554, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 3533219337302213554, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 3533219337302213554, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 3943848350932531737, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 3943848350932531737, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 3943848350932531737, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 3997392874818711310, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 3997392874818711310, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 3997392874818711310, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 4119740867396142726, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 4119740867396142726, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 4119740867396142726, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 4188648457219998122, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 4188648457219998122, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 4188648457219998122, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 4275772831535320563, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 4275772831535320563, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 4275772831535320563, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 4317103848623031305, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 4317103848623031305, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 4317103848623031305, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 4592652747952621494, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 4592652747952621494, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 4592652747952621494, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 4788288732215042789, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 4788288732215042789, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 4788288732215042789, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 5363976466060337365, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 5363976466060337365, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 5363976466060337365, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 5441543707234624084, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 5441543707234624084, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 5441543707234624084, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 5462903102183536605, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 5462903102183536605, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 5462903102183536605, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 5903421953864897414, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 5903421953864897414, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 5903421953864897414, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 6027366313165794036, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 6027366313165794036, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 6027366313165794036, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 6069082912988605824, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 6069082912988605824, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 6069082912988605824, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 6309338829606247739, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 6309338829606247739, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 6309338829606247739, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 6736978609931160062, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 6736978609931160062, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 6736978609931160062, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 6907843411605163822, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 6907843411605163822, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 6907843411605163822, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 6914816158945203292, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 6914816158945203292, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 6914816158945203292, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 7131997492596083079, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 7131997492596083079, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 7131997492596083079, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 7439351435827200113, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 7439351435827200113, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 7439351435827200113, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 7494365978401371909, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 7494365978401371909, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 7494365978401371909, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 7512518415273645307, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 7512518415273645307, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 7512518415273645307, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 7698970802849322712, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 7698970802849322712, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 7698970802849322712, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 8433974782553132154, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 8433974782553132154, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 8433974782553132154, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 8481048667563162245, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 8481048667563162245, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 8481048667563162245, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    - target: {fileID: 8742652837189500622, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 885794053}
+    - target: {fileID: 8742652837189500622, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 348186294}
+    - target: {fileID: 8742652837189500622, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 171541151}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+--- !u!1 &89916722332039340 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 3955808756769843235, guid: 0af7958a0cdae2043b88741c48ab1657, type: 3}
-  m_PrefabInstance: {fileID: 736807914}
+  m_CorrespondingSourceObject: {fileID: 1354543977681598406, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+  m_PrefabInstance: {fileID: 89916722332039339}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1552486123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+--- !u!1 &89916722332039341 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8643802755809609697, guid: 41b01c0e9c9f5fb40805366a83bad350, type: 3}
+  m_PrefabInstance: {fileID: 89916722332039339}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1552486122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c3d4b1d31286f34a9b0d396cc6958af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript1
-  player: {fileID: 348186294}
---- !u!65 &1552486124
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1552486122}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.74000007, y: 1, z: 0.23936}
-  m_Center: {x: 0, y: 0, z: -0.11968}
 --- !u!1001 &1572521992477787899
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1387,597 +2456,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b887ffad81bc0641921b131bf760b8a, type: 3}
---- !u!1001 &8739972605684017162
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 102465147444718137, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 102465147444718137, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 102465147444718137, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 335541105982677967, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 335541105982677967, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 335541105982677967, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 670415446718444902, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 670415446718444902, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 670415446718444902, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 852347867318269765, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 852347867318269765, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 852347867318269765, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 1596326749854013755, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 1596326749854013755, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 1596326749854013755, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 1629890806914019268, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 1629890806914019268, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 1629890806914019268, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 1928053029397585264, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 1928053029397585264, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 1928053029397585264, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 2442812844946260315, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 2442812844946260315, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 2442812844946260315, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 2887310144329023978, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 2887310144329023978, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 2887310144329023978, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 3018918363216905067, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 3018918363216905067, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 3018918363216905067, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 3472407076880337226, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 3472407076880337226, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 3472407076880337226, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 3636899217671876664, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 3636899217671876664, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 3636899217671876664, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 3754507098019610245, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 3754507098019610245, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 3754507098019610245, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 4011652482059095614, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 4011652482059095614, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 4011652482059095614, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 4343828043578076304, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 4343828043578076304, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 4343828043578076304, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 4351509430461347810, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 4351509430461347810, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 4351509430461347810, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 4533849625588427328, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 4533849625588427328, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 4533849625588427328, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 4654347304365798568, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 4654347304365798568, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 4654347304365798568, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 4849012982876565625, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 4849012982876565625, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 4849012982876565625, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 4872721715598720446, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 4915915367523306263, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 4915915367523306263, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 4915915367523306263, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 5172023494664634590, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 5172023494664634590, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 5172023494664634590, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 5236311344177154757, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 5236311344177154757, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 5236311344177154757, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 5269481989688784597, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 197.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5269481989688784597, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5269481989688784597, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 500
-      objectReference: {fileID: 0}
-    - target: {fileID: 5269481989688784597, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5269481989688784597, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5269481989688784597, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5269481989688784597, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5269481989688784597, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5269481989688784597, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5269481989688784597, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5312515969961195391, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 5312515969961195391, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 5312515969961195391, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 5362043727077026088, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 5362043727077026088, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 5362043727077026088, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 5425572333730834021, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 5425572333730834021, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 5425572333730834021, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 5483051222558608283, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 5483051222558608283, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 5483051222558608283, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 5675902469358618537, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 5675902469358618537, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 5675902469358618537, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 5953039802857611276, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 5953039802857611276, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 5953039802857611276, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 6119373537478790320, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 6119373537478790320, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 6119373537478790320, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 6138031644309821863, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 6138031644309821863, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 6138031644309821863, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 6376139944494344119, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 6376139944494344119, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 6376139944494344119, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 6396077739682278989, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 6396077739682278989, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 6396077739682278989, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 6464046421077156372, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 6464046421077156372, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 6464046421077156372, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 6537454320582452536, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 6537454320582452536, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 6537454320582452536, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 6641005409020044296, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 6641005409020044296, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 6641005409020044296, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 7550272602229850469, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 7550272602229850469, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 7550272602229850469, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 7799917016278737880, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 7799917016278737880, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 7799917016278737880, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 7911955412616902100, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 7911955412616902100, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 7911955412616902100, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 8003154534324628761, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 8003154534324628761, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 8003154534324628761, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 8167762803096900728, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: m_Name
-      value: Platform 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8248228210115735189, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: 'platformSections.Array.data[0]'
-      value: 
-      objectReference: {fileID: 1078758600}
-    - target: {fileID: 8330144585540408159, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 8330144585540408159, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 8330144585540408159, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 8400037947878944082, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 8400037947878944082, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 8400037947878944082, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 8649585696632151949, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 8649585696632151949, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 8649585696632151949, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    - target: {fileID: 8936693514376597317, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: Anim
-      value: 
-      objectReference: {fileID: 885794053}
-    - target: {fileID: 8936693514376597317, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 348186294}
-    - target: {fileID: 8936693514376597317, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-      propertyPath: fadeOut
-      value: 
-      objectReference: {fileID: 171541151}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
---- !u!1 &8739972605684017163 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8167762803096900728, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-  m_PrefabInstance: {fileID: 8739972605684017162}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8739972605684017164 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8306609529275570573, guid: 7b39cdece0006cf479069f2ade9b259a, type: 3}
-  m_PrefabInstance: {fileID: 8739972605684017162}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1986,7 +2464,6 @@ SceneRoots:
   - {fileID: 832575519}
   - {fileID: 1572521992477787899}
   - {fileID: 1078758599}
-  - {fileID: 8739972605684017162}
+  - {fileID: 89916722332039339}
   - {fileID: 452327962}
   - {fileID: 669015604}
-  - {fileID: 736807914}

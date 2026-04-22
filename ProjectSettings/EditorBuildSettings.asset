@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Forest_Runner.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
+    path: Assets/Scenes/IslandTutorial.unity
+    guid: ac7a8fa4c173e2342b830e8c0d86ba32
+  - enabled: 1
     path: Assets/Scenes/Island.unity
     guid: 8cbcafacff5e4644f86c60b9dfa5fbef
   m_configObjects:

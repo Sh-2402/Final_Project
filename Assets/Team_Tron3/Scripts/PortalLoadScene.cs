@@ -11,7 +11,7 @@ public class PortalLoadScene : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-           SceneManager.LoadScene("Island");
+           SceneManager.LoadScene("IslandTutorial");
         }
     }
 }
