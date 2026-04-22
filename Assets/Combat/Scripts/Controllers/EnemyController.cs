@@ -7,6 +7,7 @@ public class EnemyController : MonoBehaviour
 {
     public float lookRadius = 10f;
     public Transform target;
+    public float attackRange = 2f;
 
     NavMeshAgent agent;
     CharacterCombat combat;
