@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03e0d8c5aea08a444b5b65d80e8c42be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  weaponLength: 12.56
+  weaponLength: 1
   weaponDamage: 2
 --- !u!1 &6865137207735090398
 GameObject:
