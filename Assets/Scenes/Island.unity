@@ -804,6 +804,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MerchantInteraction
   interactPrompt: {fileID: 4417198231856014315, guid: 13ff6485d6a70f946a614bd9e9a04cfd, type: 3}
   shopScreen: {fileID: 2068269452}
+--- !u!65 &114614922
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114614919}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20, y: 7, z: 20}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &116762526
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3941,6 +3962,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f6aab9a953a3d844a83a614a0e192e96, type: 3}
       insertIndex: -1
       addedObject: {fileID: 114614921}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f6aab9a953a3d844a83a614a0e192e96, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 114614922}
   m_SourcePrefab: {fileID: 100100000, guid: f6aab9a953a3d844a83a614a0e192e96, type: 3}
 --- !u!1001 &605450656
 PrefabInstance:
